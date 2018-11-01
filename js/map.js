@@ -1,17 +1,13 @@
 function initialize() {
+	var montreal = new google.maps.LatLng(45.5017, -73.5673);
 	var myOptions = {
-		zoom: 16,
-		center: new google.maps.LatLng(51.489500, -0.096777), //change the coordinates
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		scrollwheel: false,
-		mapTypeControl: false,
-		zoomControl: false,
-		streetViewControl: false,
-		}
+		zoom: 10,
+		center: montreal
+	};
 	var map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
 	var marker = new google.maps.Marker({
 		map: map,
-		position: new google.maps.LatLng(51.489500, -0.096777) //change the coordinates
+		position: montreal
 	});
 	google.maps.event.addListener(marker, "click", function() {
 		infowindow.open(map, marker);
