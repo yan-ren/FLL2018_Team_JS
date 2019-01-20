@@ -754,13 +754,13 @@ ol {
 }
 
 .latest-blog .lb-item .lb-thumb {
-	width: 97px;
-	height: 97px;
+	width: 120px;
+	height: 120px;
 	float: left;
 }
 
 .latest-blog .lb-item .lb-content {
-	padding-left: 110px;
+	padding-left: 140px;
 }
 
 .latest-blog .lb-item .lb-content .lb-date {
