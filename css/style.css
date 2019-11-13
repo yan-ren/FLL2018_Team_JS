@@ -119,7 +119,8 @@ ol {
 	color: #fff;
 }
 
-.text-orange h2 {
+.text-orange h2,
+.text-orange {
 	color: #FF8C00;
 }
 
